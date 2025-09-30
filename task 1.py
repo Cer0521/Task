@@ -26,6 +26,7 @@ merged_inventory = pd.merge(
     this_year_inventory,
     on='Item ID',
     suffixes=('_LastYear', '_ThisYear')
+
 )
 
 # Calculate the percentage increase
